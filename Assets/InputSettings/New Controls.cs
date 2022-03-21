@@ -51,7 +51,7 @@ public partial class @NewControls : IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""e2951eeb-b5a2-45c4-8c55-bcd97ca04b8c"",
                     ""path"": ""<Keyboard>/space"",
-                    ""interactions"": ""Tap(duration=0.01,pressPoint=0.01)"",
+                    ""interactions"": ""Tap"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""ActionButton"",

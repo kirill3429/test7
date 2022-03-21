@@ -24,7 +24,7 @@ public class PlayerEscape : MonoBehaviour
     {
         if (_input.action && _dogAI.isDragging)
         {
-            escapeProgress += 1;
+            escapeProgress += 15 * Time.deltaTime;
             if (escapeProgress >= escapeMax)
             {
                 _dogAI.isDragging = false;
@@ -35,7 +35,7 @@ public class PlayerEscape : MonoBehaviour
             
         }
         if (escapeProgress > 0)
-            escapeProgress -= 2 * Time.deltaTime;
+            escapeProgress -= Time.deltaTime;
 
     }
 }
